@@ -61,6 +61,27 @@ int main()
     }
     return 0;
 }
+output:
+Task 1: Enter names and weights on the first day
+Enter name for pupil 1:sana
+Enter weight for pupil 1 on the first day:50
+Enter name for pupil 2:sara
+Enter weight for pupil 2 on the first day:35
+Enter name for pupil 3:ali
+Enter weight for pupil 3 on the first day:40
+Enter name for pupil 4:saba
+Enter weight for pupil 4 on the first day:60
+Enter name for pupil 5:asma
+Enter weight for pupil 5 on the first day:35
+Task 2: Enter weight of last day and calculate differences
+Enter weight for pupil 1 on the last day:50
+Enter weight for pupil 2 on the last day:30
+Enter weight for pupil 3 on the last day:40
+Enter weight for pupil 4 on the last day:65
+Enter weight for pupil 5 on the last day:35
+Task 3: Pupils with weight differences more than 2.5 kilograms
+Pupil sara has a weight difference of 5 kgs(fall)
+Pupil saba has a weight difference of 5 kgs(rise)
 
 
 

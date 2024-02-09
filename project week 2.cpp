@@ -126,4 +126,45 @@ int main()
     while (choice != 0);
     return 0;
 }
+output:
+Select a task to perform (1-3),or enter 0 to quit: 1
+Enter the number of senior citizens interested in the outing: 13
+Total cost of the outing: 605
+Cost per person: 46.5385
+Select a task to perform (1-3),or enter 0 to quit: 2
+Enter the number of senior citizens on the outing: 13
+Enter the names and amounts paid by the participants:
+Name of participant 1: aqsa
+Amount paid by aqsa: 300
+Name of participant 2: ali
+Amount paid by ali: 200
+Name of participant 3: laiba
+Amount paid by laiba: 400
+Name of participant 4: mlaika
+Amount paid by mlaika: 350
+Name of participant 5: dua
+Amount paid by dua: 240
+Name of participant 6: tahir
+Amount paid by tahir: 120
+Name of participant 7: yoha
+Amount paid by yoha: 267
+Name of participant 8: raha
+Amount paid by raha: 500
+Name of participant 9: waleed
+Amount paid by waleed: 340
+Name of participant 10: qamar
+Amount paid by qamar: 290
+Name of participant 11: asma
+Amount paid by asma: 570
+Name of participant 12: sana
+Amount paid by sana: 321
+Name of participant 13: isra
+Amount paid by isra: 543
+Total money collected: 4441
+Select a task to perform (1-3),or enter 0 to quit: 3
+Enter the number of senior citizens on the outing: 30
+Enter the total amount collected from the outing:5000
+The outing made a profit of 3815
+Select a task to perform (1-3),or enter 0 to quit: 0
+Exiting program.
 

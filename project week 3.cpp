@@ -103,4 +103,51 @@ int main() {
 
     return 0;
 }
+output:
+Day 1:
+Enter the number of times milked today: 2
+Enter cow's ID (3-digit number): 123
+Enter yield for each milking: 20
+Enter cow's ID (3-digit number): 456
+Enter yield for each milking: 15
+Day 2:
+Enter the number of times milked today: 1
+Enter cow's ID (3-digit number): 789
+Enter yield for each milking: 10
+Day 3:
+Enter the number of times milked today: 2
+Enter cow's ID (3-digit number): 123
+Enter yield for each milking: 18
+Enter cow's ID (3-digit number): 456
+Enter yield for each milking: 14
+Day 4:
+Enter the number of times milked today: 1
+Enter cow's ID (3-digit number): 789
+Enter yield for each milking: 11
+Day 5:
+Enter the number of times milked today: 2
+Enter cow's ID (3-digit number): 123
+Enter yield for each milking: 17
+Enter cow's ID (3-digit number): 456
+Enter yield for each milking: 13
+Day 6:
+Enter the number of times milked today: 1
+Enter cow's ID (3-digit number): 789
+Enter yield for each milking: 12
+Day 7:
+Enter the number of times milked today: 2
+Enter cow's ID (3-digit number): 123
+Enter yield for each milking: 16
+Enter cow's ID (3-digit number): 456
+Enter yield for each milking: 12
+
+--- Statistics ---
+Total weekly volume of milk: 148
+Average yield per cow in a week: 14
+
+--- Cow Identification ---
+Most productive cow (ID): 123 with weekly yield: 71
+Cows with low volume of milk for four or more days:
+Cow ID: 456, Low yield days: 4
+
 

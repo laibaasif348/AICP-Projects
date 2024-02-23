@@ -110,5 +110,82 @@ void endAuction(AuctionItem items[], int size)
     cout<<"Number of items that did not meet reserve price:"<<itemsNotMetReserve<<endl;
     cout<<"Number of items with no bids:"<<itemsWithNoBids<<endl;
 }
+output:
+Auction Setup
+Enter details for at least 10 items:
+Item 1:
+Item Number: 101
+Description: Antique Table
+Reserve Price: 500
+Item 2:
+Item Number: 102
+Description: Vintage Chair
+Reserve Price: 300
+Item 3:
+Item Number: 103
+Description: Oil Painting
+Reserve Price: 800
+Item 4:
+Item Number: 104
+Description: Collectible Vase
+Reserve Price: 200
+Item 5:
+Item Number: 105
+Description: Rare Book
+Reserve Price: 600
+Item 6:
+Item Number: 106
+Description: Silver Jewelry
+Reserve Price: 400
+Item 7:
+Item Number: 107
+Description: Designer Handbag
+Reserve Price: 700
+Item 8:
+Item Number: 108
+Description: Sculpture
+Reserve Price: 350
+Item 9:
+Item Number: 109
+Description: Antique Clock
+Reserve Price: 450
+Item 10:
+Item Number: 110
+Description: Persian Rug
+Reserve Price: 900
+
+Buyer 1 Bidding:
+Enter item number you want to bid for: 103
+Item: Oil Painting, Current Highest Bid: 0
+Enter your bid: 850
+Bid accepted!
+
+Buyer 2 Bidding:
+Enter item number you want to bid for: 106
+Item: Silver Jewelry, Current Highest Bid: 0
+Enter your bid: 420
+Bid accepted!
+
+Buyer 3 Bidding:
+Enter item number you want to bid for: 110
+Item: Persian Rug, Current Highest Bid: 0
+Enter your bid: 950
+Bid accepted!
+
+End of Auction
+Item 101 sold for $500
+Item 102 did not meet the reserve price.
+Item 103 sold for $850
+Item 104 did not meet the reserve price.
+Item 105 did not meet the reserve price.
+Item 106 sold for $420
+Item 107 did not meet the reserve price.
+Item 108 did not meet the reserve price.
+Item 109 did not meet the reserve price.
+Item 110 sold for $950
+Total fee for sold items: $247.5
+Number of items sold: 4
+Number of items that did not meet reserve price: 6
+Number of items with no bids: 0
 
 

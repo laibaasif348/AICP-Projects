@@ -63,4 +63,13 @@ int main()
 
     return 0;
 }
+Output:
+Enter the day (S for Saturday, U for Sunday, or any other letter for weekdays): M
+Enter the hour of arrival (in 24-hour format): 14
+Enter the number of hours to park: 3
+Do you have a frequent parking number? (1 for Yes, 0 for No): 0
+Total price to park: $9.00
+Enter payment amount: $10
+Payment accepted. Thank you!
+Daily total: $10.00
 

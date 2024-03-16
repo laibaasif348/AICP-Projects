@@ -97,7 +97,7 @@ class Booking
     float calculateTotalCost() 
     {
         totalCost=0;
-        for(int i=0; i<ticketCount;i++) 
+        for(int i=0;i<ticketCount;i++) 
         {
             totalCost+=tickets[i]->getOneDayPrice();
         }
@@ -155,4 +155,39 @@ int main()
     booking.displayBookingDetails();
     return 0;
 }
+output:
+One-day ticket options:
+Adult:
+One day: $20
+Two days: $30
+Child:
+One day: $12
+Two days: $18
+Senior:
+One day: $16
+Two days: $24
+Group (6+ people):
+One day: $15
+Two days: $22.5
+Family(up to 2 adult& 3 children):
+One day: $60
+Two days: $90
 
+Available attractions:
+Lion Feeding: $2.5
+Penguin Feeding: $2
+Evening Barbecue (Two-day tickets only): $5
+
+Total cost of the booking: $39.5
+Booking details:
+Adult:
+One day: $20
+Two days: $30
+Child:
+One day: $12
+Two days: $18
+Lion Feeding: $2.5
+Evening Barbecue (Two-day tickets only): $5
+Total Cost: $39.5
+
+--------------------------------
